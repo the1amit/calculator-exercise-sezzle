@@ -1,0 +1,33 @@
+.btn {
+  display: flex;
+  height: 4em;
+  flex: 1;
+  border-radius: 999px;
+  justify-content: center;
+  align-items: center;
+  font-weight: lighter;
+  font-size: 1.4em;
+  background-color: rgb(51, 49, 49);
+  color: whitesmoke;
+  font-weight: 500;
+  margin: 4px;
+  cursor: pointer;
+}
+.btn:hover {
+  opacity: 0.8;
+}
+
+.btn:active {
+  transform: scale(0.98);
+  /* Scaling button to 0.98 to its original size */
+  box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
+  /* Lowering the shadow */
+}
+.operator {
+  background-color: #fe9241;
+  color: white;
+}
+.clear {
+  background-color: gray;
+  color: whitesmoke;
+}

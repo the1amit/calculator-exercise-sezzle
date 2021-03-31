@@ -1,0 +1,40 @@
+.app {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  margin-top: 48px;
+}
+.calcultor {
+  width: 400px;
+  height: 600px;
+  padding: 12px;
+  background-color: black;
+  margin-right: 1px;
+}
+.result_log {
+  width: 400px;
+  height: 600px;
+  padding: 12px;
+  background-color: black;
+  color: whitesmoke;
+}
+.result_log > h1 {
+  text-align: center;
+  margin-bottom: 24px;
+}
+.logs {
+  overflow-y: auto;
+  height: 90%;
+}
+.row {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+}
+.previous_number {
+  font-weight: bold;
+  font-size: 1.4em;
+  color: whitesmoke;
+}
