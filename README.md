@@ -24,7 +24,7 @@ For example, user A and user B go to your app at the same time. User A calculate
 
 Results should remain between sessions. Only show the last 10 calculations descending from most recent to oldest.
 
-## 🚀 Deployment <a name = "#deployment"></a>
+## 🚀 Deployment <a name = "deployment"></a>
 
 This app's frontend is hosted on Firebase and backed on Heroku.
 
